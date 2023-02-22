@@ -1,0 +1,30 @@
+<!-- <div id="call-logs"></div> -->
+
+<ul>
+  <% logs.forEach(function(user) { %>
+  <li>Name:<%= user.data().name %> <br /></li>
+  <br />
+  <% }); %>
+</ul>
+<!-- <script>
+  var listContainer = document.querySelectorAll("#call-logs")[0];
+
+  // An array of items to be added to the list
+  var items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+
+  // Function to add items to the list
+  function addItemsToList() {
+    // Loop through the items array
+    for (var i = 0; i < items.length; i++) {
+      // Create a new list item element
+      var item = document.createElement("li");
+      // Set the text content of the list item to the current item in the array
+      item.textContent = items[i];
+      // Add the list item to the list container
+      listContainer.appendChild(item);
+    }
+  }
+
+  // Call the function to add items to the list
+  addItemsToList();
+</script> -->
